@@ -858,6 +858,7 @@ class Application extends React.Component {
           <text
             style={{
               fontFamily: "ballinger-mono",
+              fontWeight: "Light",
               fontSize:12,
               position: "fixed",
               left: this.state.popUpX,
