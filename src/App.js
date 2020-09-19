@@ -101,7 +101,6 @@ class Application extends React.Component {
     this.map.doubleClickZoom.disable();
     this.map.dragPan.enable();
     smoothscroll.polyfill();
-    document.addEventListener("mousedown", this.handleClickOutside);
     var deltaDistance = 100;
     var deltaDegrees = 10;
 
@@ -145,8 +144,8 @@ class Application extends React.Component {
     });
 
     this.map.on("click", e => {
-      var pageX = window.event.pageX;
-      var pageY = window.event.pageY;
+      var pageX = window.event.pageX - window.scrollX;
+      var pageY = window.event.pageY - window.scrollY;
       var features = this.map.queryRenderedFeatures(e.point, {
         layers: ["gods"]
       });
@@ -503,7 +502,6 @@ class Application extends React.Component {
             width: this.state.mapWidth
           }}
         >
-          <div ref={el => (this.popUpRef = el)} />
         </div>
         <div
           style={{

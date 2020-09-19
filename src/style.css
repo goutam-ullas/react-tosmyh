@@ -358,13 +358,6 @@ display:inline;
   cursor: crosshair !important;
 }
 
-@font-face {
-  font-family: 'Niki';
-  font-style: normal;
-  src: url('https://use.typekit.net/bor7jxc.css'); /* IE9 Compat Modes */
-}
-
-
 *:focus {
     outline: none;
 }
