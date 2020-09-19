@@ -58,8 +58,8 @@ button[aria-label][data-balloon-pos] {
     pointer-events: none;
     transition: all 0.18s ease-out 0.18s;
     text-indent: 0;
-    font-family: "Graebenbach";
-    font-weight: normal;
+    font-family: "ballinger-mono";
+    font-weight: light;
     font-style: normal;
     text-shadow: none;
     font-size: var(--balloon-font-size);
