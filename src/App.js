@@ -25,8 +25,8 @@ class Application extends React.Component {
     this.state = {
       mapHeight: window.innerHeight,
       mapWidth: window.innerWidth,
-      lng: 78.4745,
-      lat: 17.3755,
+      lng: 78.47455,
+      lat: 17.37563,
       value: 50,
       index: true,
       squareState: true,
