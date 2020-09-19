@@ -772,7 +772,7 @@ class Application extends React.Component {
               marginLeft: 10,
               marginTop: 10,
               color: "white",
-              zIndex: 300
+              zIndex: 101
             }}
           >
             &#10005;
@@ -798,7 +798,7 @@ class Application extends React.Component {
               marginLeft: 10,
               marginTop: 10,
               color: "white",
-              zIndex: 300
+              zIndex: 101
             }}
           >
             &#10005;
@@ -835,7 +835,7 @@ class Application extends React.Component {
               marginTop: 10,
               marginLeft: 10,
               color: "white",
-              zIndex: 300
+              zIndex: 102
             }}
           >
             &#10005;
@@ -877,7 +877,8 @@ class Application extends React.Component {
               color: "white",
               backgroundColor: "black",
               alignSelf: "flex-start",
-              padding: this.state.popUpPad
+              padding: this.state.popUpPad,
+              zIndex: 200
             }}
           >
             {this.state.pointName} <br /> {this.state.layerName}
