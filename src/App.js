@@ -63,6 +63,9 @@ class Application extends React.Component {
       layerName: "",
       popUpPad: 0
     };
+    this.researchRef = React.createRef();
+    this.aboutRef = React.createRef();
+    this.handleAboutResearchClick = this.handleAboutResearchClick.bind(this);
     this.circleFunction = this.circleFunction.bind(this);
     this.squareFunction = this.squareFunction.bind(this);
     this.aboutFunction = this.aboutFunction.bind(this);
@@ -331,7 +334,17 @@ class Application extends React.Component {
     this.map.on("mousemove", e => {
       // Set variables equal to the current feature's magnitude, location, and time
       var hoverFeatures = this.map.queryRenderedFeatures(e.point, {
-        layers: ["gods","gods-stores","restaurant","beauty-and-wedding","kitchen-utensils","grocery-stores","toys-stores","plastic-goods-stores","bars-and-liquor"]
+        layers: [
+          "gods",
+          "gods-stores",
+          "restaurant",
+          "beauty-and-wedding",
+          "kitchen-utensils",
+          "grocery-stores",
+          "toys-stores",
+          "plastic-goods-stores",
+          "bars-and-liquor"
+        ]
       });
       // Check whether features exist
       if (hoverFeatures.length > 0) {
@@ -340,6 +353,8 @@ class Application extends React.Component {
         this.map.getCanvas().style.cursor = "all-scroll";
       }
     });
+
+    window.addEventListener("mousedown", this.handleAboutResearchClick);
   }
 
   indexFunction() {
@@ -353,6 +368,20 @@ class Application extends React.Component {
       mapHeight: window.innerHeight,
       mapWidth: window.innerWidth
     });
+  }
+
+  handleAboutResearchClick(event) {
+    if (
+      (this.aboutRef.current.contains(event.target)) || (this.researchRef.current.contains(event.target))
+    ) {
+      this.setState({
+        popUpH: 0,
+        popUpW: 0,
+        pointName: "",
+        layerName: "",
+        popUpPad: 0
+      });
+    }
   }
 
   aboutFunction() {
@@ -755,6 +784,7 @@ class Application extends React.Component {
         </div>
         <div
           className="about"
+          ref={this.aboutRef}
           style={{
             width: this.state.aboutWidth,
             height: window.innerHeight,
@@ -807,6 +837,7 @@ class Application extends React.Component {
         </div>
         <div
           className="research"
+          ref={this.researchRef}
           style={{
             width: this.state.researchWidth,
             leftBorder: this.state.researchBorder,
