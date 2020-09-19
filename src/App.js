@@ -328,9 +328,18 @@ class Application extends React.Component {
       });
     });
 
-
-
-    
+    this.map.on("mousemove", e => {
+      // Set variables equal to the current feature's magnitude, location, and time
+      var hoverFeatures = this.map.queryRenderedFeatures(e.point, {
+        layers: ["gods","gods-stores","restaurant","beauty-and-wedding","kitchen-utensils","grocery-stores","toys-stores","plastic-goods-stores","bars-and-liquor"]
+      });
+      // Check whether features exist
+      if (hoverFeatures.length > 0) {
+        this.map.getCanvas().style.cursor = "pointer";
+      } else {
+        this.map.getCanvas().style.cursor = "all-scroll";
+      }
+    });
   }
 
   indexFunction() {
