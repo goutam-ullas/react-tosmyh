@@ -314,7 +314,7 @@ class Application extends React.Component {
         popUpPad: 0
       });
     });
-
+    this.map.getCanvas().style.cursor = "all-scroll";
     this.map.on("move", () => {
       this.setState({
         lng: this.map.getCenter().lng.toFixed(4),
@@ -327,6 +327,10 @@ class Application extends React.Component {
         popUpPad: 0
       });
     });
+
+
+
+    
   }
 
   indexFunction() {
@@ -501,8 +505,7 @@ class Application extends React.Component {
             height: this.state.mapHeight,
             width: this.state.mapWidth
           }}
-        >
-        </div>
+        />
         <div
           style={{
             fontSize: 24,
@@ -857,7 +860,7 @@ class Application extends React.Component {
             style={{
               fontFamily: "ballinger-mono",
               fontWeight: "Light",
-              fontSize:12,
+              fontSize: 12,
               position: "fixed",
               left: this.state.popUpX,
               top: this.state.popUpY,
