@@ -549,17 +549,15 @@ class Application extends React.Component {
         />
         <div
           style={{
-            fontSize: 24,
             position: "absolute",
-            color: "black",
             left: this.state.themeLeft,
             top: this.state.themeStart,
             height: this.state.themeGap,
             pointerEvents: "none"
           }}
         >
-          <p className="theme"> {this.theme1Title} </p>
-          <p className="theme">{this.theme1Desc}</p>
+          <p className="themeName"> {this.theme1Title} </p>
+          <p className="themeDesc">{this.theme1Desc}</p>
           <ReactPlayer
             className="video"
             style={{
@@ -593,9 +591,7 @@ class Application extends React.Component {
         </div>
         <div
           style={{
-            fontSize: 24,
             position: "absolute",
-            color: "black",
             left: window.innerWidth / 6,
             top: this.state.themeStart + this.state.themeGap,
             height: this.state.themeGap,
