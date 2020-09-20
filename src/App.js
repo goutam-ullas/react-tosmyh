@@ -549,8 +549,8 @@ class Application extends React.Component {
         <div
           style={{
             position: "absolute",
-            left: window.innerWidth / 5,
-            width: (2 * window.innerWidth) / 30,
+            left: window.innerWidth / 30,
+            width: (2 * window.innerWidth) / 3,
             top: this.state.themeStart,
             height: this.state.themeGap,
             pointerEvents: "none"
