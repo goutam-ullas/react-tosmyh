@@ -556,39 +556,9 @@ class Application extends React.Component {
             pointerEvents: "none"
           }}
         >
-          <div style={{ padding: 20, zIndex: 10 }}>
+          <div style={{ padding: 20, zIndex: 10, width:"50%" }}>
             <text className="themeDesc">{this.theme1Desc}</text>
           </div>
-          <ReactPlayer
-            className="video"
-            style={{
-              position: "absolute",
-              top: 50,
-              right: 300,
-              zIndex: this.state.videoZindex1
-            }}
-            height={this.state.videoDimX1 * this.state.videoHeight}
-            width={this.state.videoDimX1 * this.state.videoWidth}
-            url="https://vimeo.com/447916895/08bdea37d0"
-            controls={true}
-            onPlay={() => this.setState({ videoDimX1: 2, videoZindex1: 10 })}
-            onPause={() => this.setState({ videoDimX1: 1, videoZindex1: 1 })}
-          />
-          <ReactPlayer
-            className="video"
-            style={{
-              position: "absolute",
-              bottom: 300,
-              right: 100,
-              zIndex: this.state.videoZindex2
-            }}
-            height={this.state.videoDimX2 * this.state.videoHeight}
-            width={this.state.videoDimX2 * this.state.videoWidth}
-            url="https://vimeo.com/447916895/08bdea37d0"
-            controls={true}
-            onPlay={() => this.setState({ videoDimX2: 2, videoZindex2: 10 })}
-            onPause={() => this.setState({ videoDimX2: 1, videoZindex2: 1 })}
-          />
         </div>
         <div
           style={{
