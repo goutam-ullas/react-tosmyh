@@ -570,7 +570,7 @@ class Application extends React.Component {
             pointerEvents: "none"
           }}
         >
-          <div style={{ padding: 20, zIndex: 10 }}>
+          <div style={{ padding: 20, zIndex: 10, width:"50%" }}>
             <text className="themeDesc">{this.theme2Desc}</text>
           </div>
           <ReactPlayer
