@@ -784,81 +784,159 @@ class Application extends React.Component {
               margin: "auto",
               fontFamily: "ballinger-mono",
               fontWeight: "Light",
-              fontSize: 10,
-              lineHeight: 0.5
+              fontSize: 10
             }}
           >
-            <div style={{ display: "inline-block", margin: 30 }}>
-              <span className="legendDot" style={{ background: "red" }} />
-              <div>
-                <p style={{ textAlign: "left" }}> Place of Worship </p>
-                <p style={{ textAlign: "left" }}> # Stores: 50 </p>
-                <p style={{ textAlign: "left" }}> Commonly Sold: Religion </p>
+            <div style={{ marginTop: 40, marginLeft: 40 }}>
+              <div
+                style={{
+                  display: "inline-block",
+                  width: 150,
+                  verticalAlign: "top"
+                }}
+              >
+                <span className="legendDot" style={{ background: "red" }} />
+                <div>
+                  <p style={{ textAlign: "left" }}> Place of Worship </p>
+                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
+                  <p style={{ textAlign: "left" }}> Commonly Sold: Religion </p>
+                </div>
               </div>
-            </div>
-            <div style={{ display: "inline-block", margin: 30 }}>
-              <span className="legendDot" style={{ background: "red" }} />
-              <div>
-                <p style={{ textAlign: "left" }}> Religious Goods </p>
-                <p style={{ textAlign: "left" }}> # Stores: 50 </p>
-                <p style={{ textAlign: "left" }}> Commonly Sold: Idols, Incense, Vermillon {" "}
-                </p>
+              <div
+                style={{
+                  display: "inline-block",
+                  width: 150,
+                  verticalAlign: "top"
+                }}
+              >
+                <span className="legendDot" style={{ background: "red" }} />
+                <div>
+                  <p style={{ textAlign: "left" }}> Religious Goods </p>
+                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
+                  <p style={{ textAlign: "left" }}>
+                    {" "}
+                    Commonly Sold: Idols, Incense, Vermillon{" "}
+                  </p>
+                </div>
               </div>
-            </div>
-            <div style={{ display: "inline-block", margin: 30 }}>
-              <span className="legendDot" style={{ background: "red" }} />
-              <div>
-                <p style={{ textAlign: "left" }}> Beauty & Wedding </p>
-                <p style={{ textAlign: "left" }}> # Stores: 50 </p>
-                <p style={{ textAlign: "left" }}> Commonly Sold: Bangles, Jewelry, Cosmetics, Bridal wear </p>
+              <div
+                style={{
+                  display: "inline-block",
+                  width: 150,
+                  verticalAlign: "top"
+                }}
+              >
+                <span className="legendDot" style={{ background: "red" }} />
+                <div>
+                  <p style={{ textAlign: "left" }}> Beauty & Wedding </p>
+                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
+                  <p style={{ textAlign: "left" }}>
+                    {" "}
+                    Commonly Sold: Bangles, Jewelry, Cosmetics, Bridal wear{" "}
+                  </p>
+                </div>
               </div>
-            </div>
-            <div style={{ display: "inline-block", margin: 30 }}>
-              <span className="legendDot" style={{ background: "red" }} />
-              <div>
-                <p style={{ textAlign: "left" }}> Kitchen Utensils </p>
-                <p style={{ textAlign: "left" }}> # Stores: 50 </p>
-                <p style={{ textAlign: "left" }}> Commonly Sold: Pots, Pans, Ladles, Crockery </p>
+              <div
+                style={{
+                  display: "inline-block",
+                  width: 150,
+                  verticalAlign: "top"
+                }}
+              >
+                <span className="legendDot" style={{ background: "red" }} />
+                <div>
+                  <p style={{ textAlign: "left" }}> Kitchen Utensils </p>
+                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
+                  <p style={{ textAlign: "left" }}>
+                    {" "}
+                    Commonly Sold: Pots, Pans, Ladles, Crockery{" "}
+                  </p>
+                </div>
               </div>
-            </div>
-            <div style={{ display: "inline-block", margin: 30 }}>
-              <span className="legendDot" style={{ background: "red" }} />
-              <div>
-                <p style={{ textAlign: "left" }}> Grocery </p>
-                <p style={{ textAlign: "left" }}> # Stores: 50 </p>
-                <p style={{ textAlign: "left" }}> Commonly Sold: Grains, Spices </p>
+              <div
+                style={{
+                  display: "inline-block",
+                  width: 150,
+                  verticalAlign: "top"
+                }}
+              >
+                <span className="legendDot" style={{ background: "red" }} />
+                <div>
+                  <p style={{ textAlign: "left" }}> Grocery </p>
+                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
+                  <p style={{ textAlign: "left" }}>
+                    {" "}
+                    Commonly Sold: Grains, Spices{" "}
+                  </p>
+                </div>
               </div>
-            </div>
-            <div style={{ display: "inline-block", margin: 30 }}>
-              <span className="legendDot" style={{ background: "red" }} />
-              <div>
-                <p style={{ textAlign: "left" }}> Toys </p>
-                <p style={{ textAlign: "left" }}> # Stores: 50 </p>
-                <p style={{ textAlign: "left" }}> Commonly Sold: Dolls, Bikes, Stuffed animals </p>
+              <div
+                style={{
+                  display: "inline-block",
+                  width: 150,
+                  verticalAlign: "top"
+                }}
+              >
+                <span className="legendDot" style={{ background: "red" }} />
+                <div>
+                  <p style={{ textAlign: "left" }}> Toys </p>
+                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
+                  <p style={{ textAlign: "left" }}>
+                    {" "}
+                    Commonly Sold: Dolls, Bikes, Stuffed animals{" "}
+                  </p>
+                </div>
               </div>
-            </div>
-            <div style={{ display: "inline-block", margin: 30 }}>
-              <span className="legendDot" style={{ background: "red" }} />
-              <div>
-                <p style={{ textAlign: "left" }}> Plastic Goods </p>
-                <p style={{ textAlign: "left" }}> # Stores: 50 </p>
-                <p style={{ textAlign: "left" }}> Commonly Sold: Mops, Buckets, Diapers </p>
+              <div
+                style={{
+                  display: "inline-block",
+                  width: 150,
+                  verticalAlign: "top"
+                }}
+              >
+                <span className="legendDot" style={{ background: "red" }} />
+                <div>
+                  <p style={{ textAlign: "left" }}> Plastic Goods </p>
+                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
+                  <p style={{ textAlign: "left" }}>
+                    {" "}
+                    Commonly Sold: Mops, Buckets, Diapers{" "}
+                  </p>
+                </div>
               </div>
-            </div>
-            <div style={{ display: "inline-block", margin: 30 }}>
-              <span className="legendDot" style={{ background: "red" }} />
-              <div>
-                <p style={{ textAlign: "left" }}> Restaurant </p>
-                <p style={{ textAlign: "left" }}> # Stores: 50 </p>
-                <p style={{ textAlign: "left" }}> Commonly Sold: Meals & snacks </p>
+              <div
+                style={{
+                  display: "inline-block",
+                  width: 150,
+                  verticalAlign: "top"
+                }}
+              >
+                <span className="legendDot" style={{ background: "red" }} />
+                <div>
+                  <p style={{ textAlign: "left" }}> Restaurant </p>
+                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
+                  <p style={{ textAlign: "left" }}>
+                    {" "}
+                    Commonly Sold: Meals & snacks{" "}
+                  </p>
+                </div>
               </div>
-            </div>
-            <div style={{ display: "inline-block", margin: 30 }}>
-              <span className="legendDot" style={{ background: "red" }} />
-              <div>
-                <p style={{ textAlign: "left" }}> Bar & Liquor </p>
-                <p style={{ textAlign: "left" }}> # Stores: 50 </p>
-                <p style={{ textAlign: "left" }}> Commonly Sold: Alcholic beverages </p>
+              <div
+                style={{
+                  display: "inline-block",
+                  width: 150,
+                  verticalAlign: "top"
+                }}
+              >
+                <span className="legendDot" style={{ background: "red" }} />
+                <div>
+                  <p style={{ textAlign: "left" }}> Bar & Liquor </p>
+                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
+                  <p style={{ textAlign: "left" }}>
+                    {" "}
+                    Commonly Sold: Alcholic beverages{" "}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
