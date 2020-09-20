@@ -780,15 +780,15 @@ class Application extends React.Component {
             &#10005;
           </span>
           <div style={{margin:"auto", fontFamily: "ballinger-mono", fontWeight: "Light", fontSize:12}}> 
-          <p style={{display: "inline-block", margin: 30 }}> legend </p>
-          <p style={{display: "inline-block", margin: 30 }}> legend </p>
-          <p style={{display: "inline-block", margin: 30 }}> legend </p>
-          <p style={{display: "inline-block", margin: 30 }}> legend </p>
-          <p style={{display: "inline-block", margin: 30 }}> legend </p>
-          <p style={{display: "inline-block", margin: 30 }}> legend </p>
-          <p style={{display: "inline-block", margin: 30 }}> legend </p>
-          <p style={{display: "inline-block", margin: 30 }}> legend </p>
-          <p style={{display: "inline-block", margin: 30 }}> legend </p>
+          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
+          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
+          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
+          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
+          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
+          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
+          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
+          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
+          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
           </div>
         </div>
         <div

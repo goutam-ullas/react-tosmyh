@@ -354,6 +354,13 @@ display:inline;
   line-height: 130%;
 }
 
+.legendDot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .mapbox-canvas-container { 
   cursor: crosshair !important;
 }
