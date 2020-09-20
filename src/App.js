@@ -784,14 +784,15 @@ class Application extends React.Component {
               margin: "auto",
               fontFamily: "ballinger-mono",
               fontWeight: "Light",
-              fontSize: 12
+              fontSize: 9,
+              lineHeight: 1
             }}
           >
             <div style={{ display: "inline-block", margin: 30 }}>
               <span className="legendDot" style={{ background: "red"}} />
               <p className="legendDotName"> Place of worship </p>
-              <p style = {{textAlign:"left"}}> Total number: 50 </p>
-              <p style = {{textAlign:"left"}}> Typical goods sold: Religions of several kind </p>
+              <p style = {{textAlign:"left"}}> Number of stores: 50 </p>
+              <p style = {{textAlign:"left"}}> Typical goods sold: Religions </p>
             </div>
             <div style={{ display: "inline-block", margin: 30 }}>
               <p>legend </p>
