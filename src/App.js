@@ -557,9 +557,6 @@ class Application extends React.Component {
           }}
         >
           <div style={{ padding: 20, zIndex: 10 }}>
-            <text className="themeName">{this.theme1Title}</text>
-          </div>
-          <div style={{ padding: 20, zIndex: 10 }}>
             <text className="themeDesc">{this.theme1Desc}</text>
           </div>
           <ReactPlayer
@@ -603,9 +600,6 @@ class Application extends React.Component {
             pointerEvents: "none"
           }}
         >
-          <div style={{ padding: 20, zIndex: 10 }}>
-            <text className="themeName">{this.theme2Title}</text>
-          </div>
           <div style={{ padding: 20, zIndex: 10 }}>
             <text className="themeDesc">{this.theme2Desc}</text>
           </div>
