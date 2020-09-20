@@ -609,9 +609,8 @@ class Application extends React.Component {
                 backgroundColor: "black",
                 color: "white",
                 alignSelf: "flex-start",
-                fontSize: 34,
-                fontFamily: "Helvetica, Sans-Serif",
-                fontStyle: "oblique"
+                fontSize: 16,
+                fontFamily: "Helvetica, Sans-Serif"
               }}
             >
               {this.theme2Title}
@@ -624,7 +623,7 @@ class Application extends React.Component {
                 color: "white",
                 alignSelf: "flex-start",
                 fontFamily: "Helvetica, Sans-Serif",
-                fontStyle: "oblique"
+                fontSize: 16
               }}
             >
               {this.theme2Desc}
