@@ -345,10 +345,6 @@ display:inline;
   pointer-events: auto;
 }
 
-.theme{
-  width:50%;
-}
-
 .themeDesc{
   background-color: #d1dae0;
   color: black;
