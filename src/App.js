@@ -778,7 +778,6 @@ class Application extends React.Component {
               display: "inline",
               top: 0,
               marginLeft: 10,
-              marginRight: 10,
               textAlign: "center"
             }}
           >
