@@ -789,7 +789,7 @@ class Application extends React.Component {
           >
             <div style={{ display: "inline-block", margin: 30 }}>
               <span className="legendDot" style={{ background: "red" }} />{" "}
-              <p>legend </p>
+              <p style={{position: "inline"}}>legend </p>
             </div>
             <div style={{ display: "inline-block", margin: 30 }}>
               <p>legend </p>
