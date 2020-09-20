@@ -784,7 +784,7 @@ class Application extends React.Component {
               margin: "auto",
               fontFamily: "ballinger-mono",
               fontWeight: "Light",
-              fontSize: 9,
+              fontSize: 10,
               lineHeight: 1
             }}
           >
