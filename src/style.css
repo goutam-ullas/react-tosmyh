@@ -346,10 +346,6 @@ display:inline;
 }
 
 .theme{
-  font-family: adobe caslon pro;
-  color: black;
-  font-weight: regular; 
-  line-height: 1;
   width:50%;
 }
 
@@ -363,11 +359,11 @@ display:inline;
 }
 
 .themeDesc{
-  background-color: black;
-  color: white;
+  background-color: #d1dae0;
+  color: black;
   align-self: "flex-start";
   font-family: Helvetica, Sans-Serif;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
