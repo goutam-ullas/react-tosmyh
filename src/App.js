@@ -661,7 +661,7 @@ class Application extends React.Component {
             />
           </span>
         </div>
-        <div className="titlebar" style={{ top: -10, zIndex: 10 }}>
+        <div className="titlebar" style={{ top: -10, width: 550, zIndex: 10 }}>
           <Typekit kitId="bor7jxc" />
           <span
             role="button"

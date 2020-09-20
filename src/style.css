@@ -293,7 +293,6 @@ button[aria-label][data-balloon-pos] {
   font-style: normal;
   font-weight: 100;
   position: fixed;
-  width: 50%;
   color: black;
 }
 
