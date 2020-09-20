@@ -94,7 +94,7 @@ class Application extends React.Component {
       container: this.mapContainer,
       style: "mapbox://styles/nnikita/ckd7n4m5b04e31ip8ai5a1xfj",
       center: [this.state.lng, this.state.lat],
-      zoom: 19,
+      zoom: 19.5,
       pitch: 60,
       attributionControl: false,
       interactive: false
@@ -520,7 +520,7 @@ class Application extends React.Component {
 
   sliderChange(v) {
     this.setState({ value: v });
-    this.map.zoomTo((1 / 49.5) * (v - 1) + 18);
+    this.map.zoomTo((1 / 33) * (v - 1) + 18);
   }
 
   toggleImage1() {
