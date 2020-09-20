@@ -353,6 +353,15 @@ display:inline;
   width:50%;
 }
 
+.themeName{
+  background-color: black;
+  color: white;
+  align-self: "flex-start";
+  font-family: Helvetica, Sans-Serif;
+  font-size: 18px;
+  line-height: 50%;
+}
+
 .themeDesc{
   background-color: black;
   color: white;

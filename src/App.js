@@ -604,17 +604,7 @@ class Application extends React.Component {
           }}
         >
           <div style={{ padding: 20, zIndex: 10 }}>
-            <text
-              style={{
-                backgroundColor: "black",
-                color: "white",
-                alignSelf: "flex-start",
-                fontSize: 16,
-                fontFamily: "Helvetica, Sans-Serif"
-              }}
-            >
-              {this.theme2Title}
-            </text>
+            <text className="themeName">{this.theme2Title}</text>
           </div>
           <div style={{ padding: 20, zIndex: 10 }}>
             <text className="themeDesc">{this.theme2Desc}</text>
