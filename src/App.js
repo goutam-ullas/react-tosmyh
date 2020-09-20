@@ -790,6 +790,8 @@ class Application extends React.Component {
             <div style={{ display: "inline-block", margin: 30 }}>
               <span className="legendDot" style={{ background: "red"}} />
               <p className="legendDotName"> Place of worship </p>
+              <p style = {{textAlign:"left"}}> Total number: 50 </p>
+              <p style = {{textAlign:"left"}}> Typical goods sold: Religions of several kind </p>
             </div>
             <div style={{ display: "inline-block", margin: 30 }}>
               <p>legend </p>
