@@ -617,18 +617,7 @@ class Application extends React.Component {
             </text>
           </div>
           <div style={{ padding: 20, zIndex: 10 }}>
-            <text
-              style={{
-                backgroundColor: "black",
-                color: "white",
-                alignSelf: "flex-start",
-                fontFamily: "Helvetica, Sans-Serif",
-                fontSize: 16,
-                lineHeight: "50%"
-              }}
-            >
-              {this.theme2Desc}
-            </text>
+            <text className="themeDesc">{this.theme2Desc}</text>
           </div>
           <ReactPlayer
             className="video"

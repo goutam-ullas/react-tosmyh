@@ -357,9 +357,9 @@ display:inline;
   background-color: black;
   color: white;
   align-self: "flex-start";
-  font-family: "Helvetica, Sans-Serif";
-  font-size: 16;
-  line-height: 50%
+  font-family: Helvetica, Sans-Serif;
+  font-size: 18px;
+  line-height: 50%;
 }
 
 .mapbox-canvas-container { 
