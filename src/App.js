@@ -785,7 +785,7 @@ class Application extends React.Component {
               fontFamily: "ballinger-mono",
               fontWeight: "Light",
               fontSize: 10,
-              lineHeight: 1
+              lineHeight: 0.5
             }}
           >
             <div style={{ display: "inline-block", margin: 30 }}>
