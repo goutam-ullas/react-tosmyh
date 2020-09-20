@@ -359,7 +359,7 @@ display:inline;
   align-self: "flex-start";
   font-family: Helvetica, Sans-Serif;
   font-size: 18px;
-  line-height: 50%;
+  line-height: 1;
 }
 
 .themeDesc{
@@ -368,7 +368,7 @@ display:inline;
   align-self: "flex-start";
   font-family: Helvetica, Sans-Serif;
   font-size: 18px;
-  line-height: 50%;
+  line-height: 1;
 }
 
 .mapbox-canvas-container { 
