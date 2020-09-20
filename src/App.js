@@ -796,11 +796,10 @@ class Application extends React.Component {
                 }}
               >
                 <span className="legendDot" style={{ background: "red" }} />
-                <div>
-                  <p style={{ textAlign: "left" }}> Place of Worship </p>
-                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
-                  <p style={{ textAlign: "left" }}> Commonly Sold: Religion </p>
-                </div>
+                  <p style={{ textAlign: "left" }}>
+                    Place of Worship <br /> # Stores: 50 <br /> Commonly Sold:
+                    Religion
+                  </p>
               </div>
               <div
                 style={{
@@ -810,14 +809,10 @@ class Application extends React.Component {
                 }}
               >
                 <span className="legendDot" style={{ background: "red" }} />
-                <div>
-                  <p style={{ textAlign: "left" }}> Religious Goods </p>
-                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
                   <p style={{ textAlign: "left" }}>
-                    {" "}
-                    Commonly Sold: Idols, Incense, Vermillon{" "}
+                    Religious Good <br /> # Stores: 50 <br /> Commonly Sold:
+                    Idols, Incense, Vermillon
                   </p>
-                </div>
               </div>
               <div
                 style={{
@@ -827,14 +822,10 @@ class Application extends React.Component {
                 }}
               >
                 <span className="legendDot" style={{ background: "red" }} />
-                <div>
-                  <p style={{ textAlign: "left" }}> Beauty & Wedding </p>
-                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
                   <p style={{ textAlign: "left" }}>
-                    {" "}
-                    Commonly Sold: Bangles, Jewelry, Cosmetics, Bridal wear{" "}
+                    Beauty & Wedding <br /> # Stores: 50 <br /> Commonly Sold:
+                    Bangles, Jewelry, Cosmetics, Bridal wear
                   </p>
-                </div>
               </div>
               <div
                 style={{
@@ -844,14 +835,10 @@ class Application extends React.Component {
                 }}
               >
                 <span className="legendDot" style={{ background: "red" }} />
-                <div>
-                  <p style={{ textAlign: "left" }}> Kitchen Utensils </p>
-                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
                   <p style={{ textAlign: "left" }}>
-                    {" "}
-                    Commonly Sold: Pots, Pans, Ladles, Crockery{" "}
+                    Kitchen Utensils <br /> # Stores: 50 <br /> Commonly Sold:
+                    Pots, Pans, Ladles, Crockery
                   </p>
-                </div>
               </div>
               <div
                 style={{
@@ -861,14 +848,10 @@ class Application extends React.Component {
                 }}
               >
                 <span className="legendDot" style={{ background: "red" }} />
-                <div>
-                  <p style={{ textAlign: "left" }}> Grocery </p>
-                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
                   <p style={{ textAlign: "left" }}>
-                    {" "}
-                    Commonly Sold: Grains, Spices{" "}
+                    Grocery <br /> # Stores: 50 <br /> Commonly Sold: Grains,
+                    Spices
                   </p>
-                </div>
               </div>
               <div
                 style={{
@@ -878,14 +861,10 @@ class Application extends React.Component {
                 }}
               >
                 <span className="legendDot" style={{ background: "red" }} />
-                <div>
-                  <p style={{ textAlign: "left" }}> Toys </p>
-                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
                   <p style={{ textAlign: "left" }}>
-                    {" "}
-                    Commonly Sold: Dolls, Bikes, Stuffed animals{" "}
+                    Toys <br /> # Stores: 50 <br /> Commonly Sold: Dolls, Bikes,
+                    Stuffed animals
                   </p>
-                </div>
               </div>
               <div
                 style={{
@@ -895,14 +874,10 @@ class Application extends React.Component {
                 }}
               >
                 <span className="legendDot" style={{ background: "red" }} />
-                <div>
-                  <p style={{ textAlign: "left" }}> Plastic Goods </p>
-                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
                   <p style={{ textAlign: "left" }}>
-                    {" "}
-                    Commonly Sold: Mops, Buckets, Diapers{" "}
+                    Plastic Goods <br /> # Stores: 50 <br /> Commonly Sold:
+                    Mops, Buckets, Diapers
                   </p>
-                </div>
               </div>
               <div
                 style={{
@@ -912,14 +887,10 @@ class Application extends React.Component {
                 }}
               >
                 <span className="legendDot" style={{ background: "red" }} />
-                <div>
-                  <p style={{ textAlign: "left" }}> Restaurant </p>
-                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
                   <p style={{ textAlign: "left" }}>
-                    {" "}
-                    Commonly Sold: Meals & snacks{" "}
+                    Restaurant <br /> # Stores: 50 <br /> Commonly Sold: Meals &
+                    snacks
                   </p>
-                </div>
               </div>
               <div
                 style={{
@@ -929,14 +900,9 @@ class Application extends React.Component {
                 }}
               >
                 <span className="legendDot" style={{ background: "red" }} />
-                <div>
-                  <p style={{ textAlign: "left" }}> Bar & Liquor </p>
-                  <p style={{ textAlign: "left" }}> # Stores: 50 </p>
                   <p style={{ textAlign: "left" }}>
-                    {" "}
-                    Commonly Sold: Alcholic beverages{" "}
+                    Bar & Liquor <br /> # Stores: 50 <br /> Commonly Sold: Alcholic beverages
                   </p>
-                </div>
               </div>
             </div>
           </div>
