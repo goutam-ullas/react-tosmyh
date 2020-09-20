@@ -556,7 +556,7 @@ class Application extends React.Component {
             pointerEvents: "none"
           }}
         >
-          <div style={{ padding: 20, zIndex: 10, width:"50%" }}>
+          <div style={{ padding: 20, zIndex: 10, width: "50%" }}>
             <text className="themeDesc">{this.theme1Desc}</text>
           </div>
         </div>
@@ -570,7 +570,7 @@ class Application extends React.Component {
             pointerEvents: "none"
           }}
         >
-          <div style={{ padding: 20, zIndex: 10, width:"50%" }}>
+          <div style={{ padding: 20, zIndex: 10, width: "50%" }}>
             <text className="themeDesc">{this.theme2Desc}</text>
           </div>
           <ReactPlayer
@@ -779,16 +779,42 @@ class Application extends React.Component {
           >
             &#10005;
           </span>
-          <div style={{margin:"auto", fontFamily: "ballinger-mono", fontWeight: "Light", fontSize:12}}> 
-          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
-          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
-          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
-          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
-          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
-          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
-          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
-          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
-          <div style={{display: "inline-block", margin: 30 }}> <p>legend </p></div>
+          <div
+            style={{
+              margin: "auto",
+              fontFamily: "ballinger-mono",
+              fontWeight: "Light",
+              fontSize: 12
+            }}
+          >
+            <div style={{ display: "inline-block", margin: 30 }}>
+              <span className="legendDot" style={{ background: "red" }} />{" "}
+              <p>legend </p>
+            </div>
+            <div style={{ display: "inline-block", margin: 30 }}>
+              <p>legend </p>
+            </div>
+            <div style={{ display: "inline-block", margin: 30 }}>
+              <p>legend </p>
+            </div>
+            <div style={{ display: "inline-block", margin: 30 }}>
+              <p>legend </p>
+            </div>
+            <div style={{ display: "inline-block", margin: 30 }}>
+              <p>legend </p>
+            </div>
+            <div style={{ display: "inline-block", margin: 30 }}>
+              <p>legend </p>
+            </div>
+            <div style={{ display: "inline-block", margin: 30 }}>
+              <p>legend </p>
+            </div>
+            <div style={{ display: "inline-block", margin: 30 }}>
+              <p>legend </p>
+            </div>
+            <div style={{ display: "inline-block", margin: 30 }}>
+              <p>legend </p>
+            </div>
           </div>
         </div>
         <div
