@@ -351,7 +351,7 @@ display:inline;
   align-self: "flex-start";
   font-family: Helvetica, Sans-Serif;
   font-size: 14px;
-  line-height: 1.00;
+  line-height: 1.05;
 }
 
 .mapbox-canvas-container { 
