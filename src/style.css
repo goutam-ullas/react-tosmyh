@@ -349,8 +349,17 @@ display:inline;
   font-family: adobe caslon pro;
   color: black;
   font-weight: regular; 
-  line-height: 1.5;
+  line-height: 1;
   width:50%;
+}
+
+.themeDesc{
+  background-color: black;
+  color: white;
+  align-self: "flex-start";
+  font-family: "Helvetica, Sans-Serif";
+  font-size: 16;
+  line-height: 50%
 }
 
 .mapbox-canvas-container { 

@@ -623,7 +623,8 @@ class Application extends React.Component {
                 color: "white",
                 alignSelf: "flex-start",
                 fontFamily: "Helvetica, Sans-Serif",
-                fontSize: 16
+                fontSize: 16,
+                lineHeight: "50%"
               }}
             >
               {this.theme2Desc}
