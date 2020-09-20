@@ -65,6 +65,7 @@ class Application extends React.Component {
     };
     this.researchRef = React.createRef();
     this.aboutRef = React.createRef();
+    this.legendRef = React.createRef();
     this.handleAboutResearchClick = this.handleAboutResearchClick.bind(this);
     this.circleFunction = this.circleFunction.bind(this);
     this.squareFunction = this.squareFunction.bind(this);
@@ -372,7 +373,9 @@ class Application extends React.Component {
 
   handleAboutResearchClick(event) {
     if (
-      (this.aboutRef.current.contains(event.target)) || (this.researchRef.current.contains(event.target))
+      this.aboutRef.current.contains(event.target) ||
+      this.researchRef.current.contains(event.target) ||
+      this.legendRef.current.contains(event.target)
     ) {
       this.setState({
         popUpH: 0,
@@ -811,6 +814,7 @@ class Application extends React.Component {
         </div>
         <div
           className="legend"
+          ref={this.legendRef}
           style={{
             width: window.innerWidth,
             height: this.state.legendHeight,
