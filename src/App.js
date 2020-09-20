@@ -779,7 +779,17 @@ class Application extends React.Component {
           >
             &#10005;
           </span>
-          <p style={{ margin: 50 }}> legend </p>
+          <div style={{margin:"auto"}}> 
+          <p style={{display: "inline-block", margin: 30 }}> legend </p>
+          <p style={{display: "inline-block", margin: 30 }}> legend </p>
+          <p style={{display: "inline-block", margin: 30 }}> legend </p>
+          <p style={{display: "inline-block", margin: 30 }}> legend </p>
+          <p style={{display: "inline-block", margin: 30 }}> legend </p>
+          <p style={{display: "inline-block", margin: 30 }}> legend </p>
+          <p style={{display: "inline-block", margin: 30 }}> legend </p>
+          <p style={{display: "inline-block", margin: 30 }}> legend </p>
+          <p style={{display: "inline-block", margin: 30 }}> legend </p>
+          </div>
         </div>
         <div
           className="research"
