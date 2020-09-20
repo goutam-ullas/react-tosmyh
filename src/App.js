@@ -779,7 +779,7 @@ class Application extends React.Component {
           >
             &#10005;
           </span>
-          <div style={{margin:"auto", fontFamily: "ballinger-mono", fontWeight: "light", fontSize:14}}> 
+          <div style={{margin:"auto", fontFamily: "ballinger-mono", fontWeight: "Light", fontSize:14}}> 
           <p style={{display: "inline-block", margin: 30 }}> legend </p>
           <p style={{display: "inline-block", margin: 30 }}> legend </p>
           <p style={{display: "inline-block", margin: 30 }}> legend </p>
