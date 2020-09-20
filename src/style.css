@@ -349,22 +349,13 @@ display:inline;
   width:50%;
 }
 
-.themeName{
-  background-color: black;
-  color: white;
-  align-self: "flex-start";
-  font-family: Helvetica, Sans-Serif;
-  font-size: 18px;
-  line-height: 70%;
-}
-
 .themeDesc{
   background-color: #d1dae0;
   color: black;
   align-self: "flex-start";
   font-family: Helvetica, Sans-Serif;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.1;
 }
 
 .mapbox-canvas-container { 
