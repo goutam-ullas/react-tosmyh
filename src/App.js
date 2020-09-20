@@ -792,11 +792,8 @@ class Application extends React.Component {
               <span className="legendDot" style={{ background: "red" }} />
               <div>
                 <p style={{ textAlign: "left" }}> Place of worship </p>
-                <p style={{ textAlign: "left" }}> Number of stores: 50 </p>
-                <p style={{ textAlign: "left" }}>
-                  {" "}
-                  Typical goods sold: Religions{" "}
-                </p>
+                <p style={{ textAlign: "left" }}> # stores: 50 </p>
+                <p style={{ textAlign: "left" }}> Goods sold: Religion </p>
               </div>
             </div>
             <div style={{ display: "inline-block", margin: 30 }}>
